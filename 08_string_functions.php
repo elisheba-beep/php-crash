@@ -1,0 +1,31 @@
+<?php
+$myString = 'Shebae';
+echo 'strlen';
+echo strlen($myString) . "<br>"; 
+echo 'strpos';
+echo strpos($myString, 'a') . "<br>";
+echo 'strrpos';
+echo strrpos($myString, 'e') . "<br>";
+echo 'strrev';
+echo strrev($myString) . "<br>";
+echo 'strtolower';
+echo strtolower($myString) . "<br>";
+echo 'strtoupper';
+echo strtoupper($myString) . "<br>";
+echo 'ucwords';
+echo ucwords($myString) . "<br>";
+echo 'str_replace';
+echo str_replace('Shebae', 'Tommy', $myString) . "<br>";
+echo 'substr';
+echo substr($myString, 0, 3) . "<br>";  
+echo 'strstartswith';
+echo str_starts_with($myString, 'She') . "<br>";
+echo 'strendswith';
+echo str_ends_with($myString, 'bae') . "<br>";
+echo 'htmlspecialchars';
+echo htmlspecialchars('<h1>this is a heading</h1>') . "<br>";
+echo 'htmlentities';
+echo htmlentities('<h1>this is a heading</h1>') . "<br>";
+printf('%s likes the number %d', 'Sheba', 7);
+printf('5+2=%d', 5+2);
+?>
